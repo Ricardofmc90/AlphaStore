@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Ropa Sans Pro';
+    src: url(ropasanspro-regular-webfont.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Ropa Sans Pro';
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 5vw;
+    height: 100vh;
+    /* padding: 20px; */
+    background-color: #353535;
+}
+
+/* .menu li {
+    margin: 0 10px 0 0;
+} */
+
+/* .menu li a {
+    display: block;
+    padding: 10px;
+} */
+
+.menu img {
+    width: 50px;
+    height: 50px;
+}
+
+/* =====================================================ASIDE======================================================================================= */

@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Ropa Sans Pro';
+    src: url(ropasanspro-regular-webfont.woff);
+}
+
+
+html {
+    font-family: 'Ropa Sans Pro';
+}
+
+a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #FFF;
+}
+
+h3 {
+    margin: 5vh 0 5vh 0;
+    align-self: center;
+    font-size: 30px;
+    color: #2B364A;
+}
+
+h4 {
+    margin: 2vh 0 2vh 0vh;
+    font-size: 22px;
+    color: #2B364A;
+}
+
+.logo {
+    width: 122px;
+    height: 50px;
+}
+
+.btnCart {
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #5a677B;
+}
+
+.btnCart:hover {
+    cursor: pointer;
+}
+
+.iconeBtnCart {
+    width: 33px;
+    height: 29px;
+}
+
+.iconeHead {
+    margin: 0 0vw 0 2vw;
+    width: 50px;
+    height: 50px;
+}
+
+main {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 7vh;
+    background-color: #2B364A;
+    /* background-color: #353535; */
+}
+
+nav span {
+    margin: 0 0vw 0 1vw;
+    font-size: 34px;
+    color: #FFF;
+}
+
+.logoNav, .pedidosNav {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* border: 1px solid black; */
+    /* width: ; */
+}
+
+nav input {
+    /* acho que ficou muito grande */
+    /* width: 827px; */
+    width: 30%;
+    height: 3em;
+    border-radius: 5px;
+}
+
+/* =====================================================ASIDE======================================================================================= */
+
+aside {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0vw 0 2vw;
+    /* padding: 5vh 0 0 0; */
+    height: 95vh;
+    width: 20vw;
+    border-right: 2px solid #2B364A;
+    color: #2B364A;
+}
+
+aside {
+
+}
+
+aside a {
+    margin: 0 0 1vh 2vw;
+    font-size: 20px;
+    color: #2B364A;
+}
+
+
+/* =====================================================MEIO======================================================================================= */
+
+.produtos {
+    display: flex;
+    margin: 10vh 5vw 10vh 5vw;
+    /* mantendo a msm margem usar o space-between de repente */
+}
+
+.prod {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 5vw;
+}
+
